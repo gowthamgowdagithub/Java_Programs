@@ -5,17 +5,21 @@ import java.util.Arrays;
 public class FindTheMedian {
 
 	public static void main(String[] args) {
-		int arr[]= {100,95,120,45,75};
+		int arr[]= {90,100,78,89,67};
 		Arrays.sort(arr);
-		int left=arr[0];
-		int right=arr.length-1;
-		int mid=(left+right)/2;
-		for(int i=0;i<arr.length;i++) {
-			if(arr[i]==mid) 
-				System.out.println("Median of given number is:"+ arr[i]);
-			}
+		System.out.println(Arrays.toString(arr));
+		int n=arr.length;
+		if(n%2==1) {
+			System.out.println(arr[n/2]);
+		}
+		else {
+			int middle1=arr[n/2-1];
+			int middle2=arr[n/2];
+			double median=(middle1+middle2)/2;
+			System.out.println(median);
+		}
 		}
 
 	}
 
-}
+
