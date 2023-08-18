@@ -23,8 +23,4 @@ public class ArmStrongNumber {
 		}
 		else {
 			System.out.println("The given number is not an armstrong number");
-		}
-
-	}
-
-}
+		}}}
