@@ -6,7 +6,4 @@ public class RemoveSpace {
 		String str="Gowtham gowda";
 		String s=str.replace(" ", "");
 		System.out.println(s);
-
-	}
-
-}
+}}

@@ -1,5 +1,4 @@
 package own;
-
 public class CheckGivenArrayIsPalindrome {
 		public static boolean isPalindrome(int num) {
 			int originalNum=num;
